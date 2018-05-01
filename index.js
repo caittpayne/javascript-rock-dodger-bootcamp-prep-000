@@ -69,8 +69,6 @@ function endGame() {
  return alert('YOU LOSE!');
 }
 
-}
-
 function moveDodger(e) {
   if (e.which === LEFT_ARROW) {
     e.stopPropagation();
